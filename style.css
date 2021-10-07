@@ -93,7 +93,6 @@ body {
     letter-spacing:5px;
   }
   
-  /* Toggle menu */
   .burger {
     display:block;
     position:relative;
@@ -140,7 +139,6 @@ body {
     transform:rotate(-45deg);
   }
   
-  /* Bonus - Animations */
   .show-nav .first {      
     transition: all 1s ease-out;
   } 
@@ -161,12 +159,15 @@ body {
     display: flex;
     flex-direction: column;
     padding-left: 10% ;
-    margin: 2% 2%;
+    margin: 12% 2%;
+    
   }
 
   .title-important{
-    margin-left:  15%;
     margin-top: 20px;;
+  }
+  .titleAdress {
+    margin-left: -10%;
   }
 
  .formulaire {
@@ -234,7 +235,6 @@ body {
   }
 
 }
-/*  Medium device - Bonus */
 
 @media screen and (min-width:600px) {
   .navbar-link > .link::after {
@@ -353,7 +353,6 @@ transition: all 0.5s ease;
 transform: rotate(-15deg);
 }
 
-/* Films à l'affiche*/
 
 
 .overlay-details {
@@ -477,7 +476,6 @@ h1 {
 
   @media screen and (min-width: 600px) {
 
-  /** ajout du css contact **/
 
   .container {
     border: 5px inset black;
@@ -521,6 +519,7 @@ h1 {
 
 .button:hover {
   background: #ffec24;
+  color: #72232C;
 }
 
 #right-part {
@@ -554,6 +553,7 @@ h1 {
 .map {
     width: 90%;
     height: auto;
+    margin-left: 5%;
   }
   body {
       background-color: #f3f3f3;
@@ -642,14 +642,7 @@ h1 {
       }
 
 
-      /* .container {
-          border: 5px inset black;
-          display: flex;
-          justify-content: space-around;
-          padding: 3% 3%;
-          margin: 5% 10%;
-         
-      }  */
+     
 
       .andrLogo {
         width: 20%;
@@ -658,75 +651,7 @@ h1 {
         width: 20%;
       }
 
-      /* .appli {
-        display: flex;
-        flex-direction: column;
-      } 
-       
-
       
-      #left-part {
-          width: 50%;
-          
-      }
-      .adressContainer {
-        display: flex;
-        justify-content: space-between;
-        padding: 2% 10%;  
-      }
-      #contactForm {
-       
-        margin: 1% 0 5% 40%;
-      }
-      .contact-Form {
-          line-height: 2;
-          width: 35%;
-          padding: 5px;
-          margin-bottom: 20px;
-          margin-left: 10px;
-      }
-
-      .button {
-          background: #72232C;
-          color: white;
-          padding: 5px 20px;
-          text-align: center;
-          border-radius: 10px;
-          margin-left: 10px;
-      }
-      
-      .button:hover {
-        background: #ffec24;
-        color: #72232C;
-      }
-
-      #right-part {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          width: 40%;
-      }
-
-      .information {
-          margin-top: 20px;
-          margin-right: 5px;
-          line-height: 1.5;
-          list-style-type: disc;
-          margin-bottom: 20px;
-          text-align: center;
-      }
-
-      .acces {
-          margin-top: 15px;
-          list-style-type: circle;
-      }
-
-      .map {
-          width: 100%;
-          height: auto;
-          padding-right: 20px;
-          padding-bottom: 20px; */
-      /* } */
 
       .sectionAffiche {
         padding-top: 8%;
@@ -741,7 +666,7 @@ h1 {
       .appli {
         display: flex;
       
-        margin: 5% 0 5% 40%;
+        margin: 5% 0 5% 35%;
       
       }
       .linkAppli {
