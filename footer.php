@@ -9,7 +9,7 @@
           <ul class="footer-ul">
           <li class="footer-li"><a class="link-footer" href="#anchor-actual-movies">Films à l'affiche</a></li>
           <li class="footer-li"><a class="link-footer" href="">Réservation</a></li>
-          <li class="footer-li"><a class="link-footer" href="">Prochainement ?</a></li>
+          <li class="footer-li"><a class="link-footer" href="#anchor-coming-soon">Prochainement </a></li>
           </ul>
       </div>
 
