@@ -24,8 +24,23 @@
 <div class=" all-body">
     <div class="first-part-body"></div>
     <div class="second-part-body">
+        
+
+
+
+
         <section id="sectionAffiche" class="sectionAffiche">
             <h1> Bienvenue au Mégarama de Bordeaux</h1>
+            <section>
+                <div id="anchor-coming-soon"></div>
+                <h3 class="h3-coming-soon"> Films prochainement à l'affiche<h3>
+            <div class="coming-soon">
+                <ul class="ul-coming-soon">
+                    <li class="li-coming-soon"><a  href="https://www.imdb.com/title/tt7097896/?ref_=nv_sr_srsg_0"><img class="movies-coming-soon" src="img/venom.jpg"/></a> </li>
+                    <li class="li-coming-soon"><a  href="https://www.imdb.com/title/tt10872600/?ref_=nv_sr_srsg_0"><img class="movies-coming-soon" src="img/spider.jpg"/></a> </li>
+                    <li class="li-coming-soon"><a  href="https://www.imdb.com/title/tt10366514/?ref_=fn_al_tt_2"><img class="movies-coming-soon" src="img/eifel.jpg"/></a> </li>       
+            </div>
+        </section>   
             <h2 class = "actual-movies-title">à l'affiche</h2>
             <div class = "actual-movies">
                 <?php foreach ($actualMovies as $key => $movieDetails): ?>
